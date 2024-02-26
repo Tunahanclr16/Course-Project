@@ -7,6 +7,7 @@ import Pricing from "../pages/Pricing";
 import Login from "../pages/Login";
 import SignUp from "../pages/SignUp";
 import Contact from "../pages/Contact";
+import RouteError from "../components/Error/RouteError";
 import MasterLayout from "../layout/MasterLayout";
 export const router = createBrowserRouter([
   {
@@ -44,6 +45,10 @@ export const router = createBrowserRouter([
       {
         path: "/Contact",
         element: <Contact />,
+      },
+      {
+        path: "*",
+        element: <RouteError />,
       },
     ],
   },
