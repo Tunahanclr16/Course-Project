@@ -7,4 +7,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
+
+@layer components {
+    .content {
+      @apply lg:max-w-[1860px] sm:max-w-[1400px] max-w-[358px] mx-auto w-full mt-4
+    }
+    .active{
+      @apply bg-white-95 p-3 text-center
+    }
+  }

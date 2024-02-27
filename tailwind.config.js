@@ -31,6 +31,9 @@ export default {
           70:"#B3B3B3",
         }
       },
+      screens:{
+        md:"885px"
+      }
     },
   },
   plugins: [],
