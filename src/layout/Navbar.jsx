@@ -64,10 +64,10 @@ export default function Navbar() {
           </ul>
         </div>
         <div className="flex items-center gap-2 sm:gap-0">
-          <NavLink to={"/Sign-Up"} className="p-6 sm:px-8 py-4 border-none outline-none text-grey-15 bg-transparent rounded-md cursor-pointer">
+          <NavLink to={"/Sign-Up"} className="p-6 no-underline sm:px-8 py-4 border-none outline-none text-grey-15 bg-transparent rounded-md cursor-pointer">
             Sign Up
           </NavLink>
-          <NavLink to={'/login'} className="p-6 sm:px-8 py-4 border-none outline-none text-[#fff] hover:bg-orange-70 bg-orange-50 rounded-md cursor-pointer">
+          <NavLink to={'/login'} className="p-6 no-underline sm:px-8 py-4 border-none outline-none text-[#fff] hover:bg-orange-70 bg-orange-50 rounded-md cursor-pointer">
             Login
           </NavLink>
           <img
