@@ -17,4 +17,7 @@
     .active{
       @apply bg-white-95 p-3 text-center
     }
+    body{
+      @apply bg-white-97
+    }
   }
