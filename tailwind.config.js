@@ -33,6 +33,7 @@ export default {
       },
       screens:{
         md:"885px",
+        xs:"330px"
       }
     },
   },
