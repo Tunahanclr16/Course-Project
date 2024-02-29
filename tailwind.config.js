@@ -32,7 +32,7 @@ export default {
         }
       },
       screens:{
-        md:"970px",
+        md:"994px",
         xs:"330px",
         lg:"1025px"
       }

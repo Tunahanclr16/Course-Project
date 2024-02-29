@@ -1,12 +1,12 @@
 import BenefitData from "../../data/benifts";
 export default function Benefits() {
   return (
-    <div className=" lg:w-[1200px] w-[300px] xs:w-[360px] sm:w-[650px]  mx-auto mt-[50px] sm:mt-[100px]">
+    <div className=" lg:w-[1596px] w-[300px] xs:w-[360px] sm:w-[650px] mx-auto mt-[50px] sm:mt-[100px]">
          <div className="">
         <h2 className="font-semibold md:p-2 lg:text-[48px] sm:text-[38px] text-[28px]">
           Benefits
         </h2>
-        <p className="lg:w-[1177px] sm:leading-6 md:leading-7 sm:w-[600px] md:w-[800px] w-[358px] lg:mt-[6px] md:p-2 font-light mt-1 lg:text-[18px] sm:text-[16px] text-[14px]">
+        <p className="lg:w-[1177px] sm:leading-6 md:leading-7 sm:w-[600px] md:w-[903px] w-[358px] lg:mt-[6px] md:p-2 font-light mt-1 lg:text-[18px] sm:text-[16px] text-[14px]">
           Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget
           elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum eget
           habitasse in velit fringilla feugiat senectus in.
