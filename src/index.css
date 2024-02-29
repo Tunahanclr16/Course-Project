@@ -18,6 +18,6 @@
       @apply bg-white-95 p-3 text-center
     }
     body{
-      @apply bg-white-97
+      @apply bg-[#F7F7F8]
     }
   }

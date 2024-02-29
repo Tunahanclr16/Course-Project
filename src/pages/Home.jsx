@@ -1,3 +1,4 @@
+import Benefits from "../components/Home/Benefits";
 import Brands from "../components/Home/Brands";
 import Hero from "../components/Home/Hero";
 import HeroPhoto from "../components/Home/HeroPhoto";
@@ -7,5 +8,6 @@ export default function Home() {
     <Hero/>
     <Brands/>
     <HeroPhoto/>
+    <Benefits/>
   </div>;
 }

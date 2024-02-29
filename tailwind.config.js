@@ -32,8 +32,9 @@ export default {
         }
       },
       screens:{
-        md:"885px",
-        xs:"330px"
+        md:"970px",
+        xs:"330px",
+        lg:"1025px"
       }
     },
   },
