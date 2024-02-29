@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import TextIcon from "../../assets/hero/heroIcon.png";
 export default function Hero() {
   return (
-    <div className="text-center relative max-w-[965px] mx-auto flex px-2 flex-col items-center mt-[50px]  sm:mt-[80px] lg:mt-[100px]">
+    <div className="text-center overflow-x-hidden  relative max-w-[965px] mx-auto flex px-2 flex-col items-center mt-[50px]  sm:mt-[80px] lg:mt-[100px]">
       <div className=" w-[357px]  bg-[#FCFCFD] sm:px-2 px-6 gap-2 rounded-md  h-20 flex  items-center justify-center sm:w-[543px] lg:w-[754px]">
         <img
           className="object-cover  w-[48px]   lg:w-[62px]"

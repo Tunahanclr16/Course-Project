@@ -32,7 +32,7 @@ export default {
         }
       },
       screens:{
-        md:"885px"
+        md:"885px",
       }
     },
   },

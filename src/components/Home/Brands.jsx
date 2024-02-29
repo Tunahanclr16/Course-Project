@@ -8,7 +8,7 @@ import netflix from "../../assets/brands/netflix.png";
 
 export default function Brands() {
   return (
-    <div className=" mt-[30px] sm:mt-[100px] mx-auto flex flex-wrap justify-center items-center gap-8 lg:max-w-[1595px] sm:max-w-[1279px] max-w-[357px]">
+    <div className=" mt-[30px] md:p-2 sm:mt-[100px] mx-auto flex flex-wrap justify-center items-center gap-8 lg:max-w-[1595px] sm:max-w-[1279px] max-w-[357px]">
       <img className="h-[40px] lg:h-[50px] sm:h-[48px]" src={zapier} alt="" />
       <img className="h-[40px] lg:h-[50px] sm:h-[48px]" src={spotify} alt="" />
       <img className="h-[40px] lg:h-[50px] sm:h-[48px]" src={zoom} alt="" />
