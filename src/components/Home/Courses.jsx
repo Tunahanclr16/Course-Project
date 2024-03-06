@@ -37,8 +37,22 @@ export default function Courses() {
             key={i}
             className="bg-[#FFFFFF] shadow-xl flex flex-col gap-20 lg:h-[807px] lg:w-[783px]"
           >
+          
             <div className="flex flex-col pl-4 md:pl-9 mt-[30px] sm:mt-[40px] lg:mt-[50px]">
               <img className=" w-[309px] h-[172px] lg:w-[683px] rounded-lg lg:h-[450px]" src={course.image} alt="" />
+              <div className="flex justify-between items-center">
+              <div>
+            <span>
+            {course.totalDuration}
+            </span>
+            <span>
+              {course.level}
+            </span>
+              </div>
+              <div>
+                {course.teacher}
+              </div>
+            </div>
               <h3 className="font-semibold  text-[20px] lg:text-[24px]  ">
                 {course.title}
               </h3>
