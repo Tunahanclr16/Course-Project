@@ -1,7 +1,7 @@
 {
     "courseData": [
         {
-            "id": "1",
+            "id": "front-end-course",
             "title": "Front-end Web Development",
             "totalDuration": "1 Week",
             "level": "Beginner",
@@ -61,7 +61,7 @@
             ]
         },
         {
-            "id": "2",
+            "id": "JavaScript-course",
             "title": "Advanced JavaScript",
             "totalDuration": "4 Week",
             "level": "Advance",
@@ -121,7 +121,7 @@
             ]
         },
         {
-            "id": "3",
+            "id": "mobile-development-course",
             "title": "Mobile App Development",
             "totalDuration": "12 weeks",
             "level": "Intermediate",

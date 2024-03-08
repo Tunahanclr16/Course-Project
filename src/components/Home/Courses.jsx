@@ -1,9 +1,10 @@
 import PageIntroduction from "../../ui/PageIntroduction";
 import CourseData from "../../server/db.json";
+import { useNavigate } from "react-router-dom";
 
 export default function Courses() {
   const courseData = CourseData.courseData;
-
+    const navigate=useNavigate()
   return (
     <div className=" lgg:w-[1596px] lg:w-[1200px] w-[300px] xs:w-[360px] sm:w-[750px] mx-auto mt-[50px] sm:mt-[100px]">
       <div className="mt-[50px] sm:mt-[100px]">
@@ -35,7 +36,7 @@ export default function Courses() {
                     {course.level}
                   </span>
                 </div>
-                <div className="text-[16px] mt-3 sm:pr-16 font-bold sm:mt-8  text-grey-15">
+                <div className="text-[16px] mt-3 pr-16 lgg:pr-2 font-bold sm:mt-8  text-grey-15">
                   {course.teacher}
                 </div>
               </div>
@@ -44,7 +45,7 @@ export default function Courses() {
                 <p className="lg:mt-[14px] mt-[10px] sm:text-[16px] text-[14px] lg:text-[18px] max-w-[298px] sm:max-w-[429px] lgg:max-w-[688px]">{course.description}</p>
               </div>
               <div className="mt-[24px] mx-auto px-2 lg:mt-[30px]">
-                <button className="text-grey-15 cursor-pointer bg-white-97 border-none rounded text-[14px] lg:text-[18px] lgg:w-[683px] lgg:h-[63px] sm:w-[529px] w-[309px] h-[49px]">Get it Now</button>
+                <button onClick={()=>navigate(`/course/${course.id}`)} className="text-grey-15 cursor-pointer bg-white-97 border-none rounded text-[14px] lg:text-[18px] lgg:w-[683px] lgg:h-[63px] sm:w-[529px] w-[309px] h-[49px]">Get it Now</button>
               </div>
             </div>
           </div>
