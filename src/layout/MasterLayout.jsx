@@ -12,7 +12,6 @@ export default function MasterLayout() {
         <Outlet />
       </div>
       <Footer/>
-
     </div>
   );
 }

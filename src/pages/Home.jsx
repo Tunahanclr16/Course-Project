@@ -6,12 +6,12 @@ import HeroPhoto from "../components/Home/HeroPhoto";
 
 export default function Home() {
   return <div>
-    <div className=" lg:w-[1596px] w-[300px] xs:w-[360px] sm:w-[650px]  mx-auto mt-[50px] sm:mt-[100px]">
+    <div className=" ">
     <Hero/>
     <Brands/>
     <HeroPhoto/>
     <Benefits/>
-  </div>;
   <Courses/>
+  </div>;
   </div>
 }

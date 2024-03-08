@@ -1,7 +1,7 @@
 import BenefitData from "../../data/benifts";
 export default function Benefits() {
   return (
-    <div className=" lg:w-[1596px] w-[300px] xs:w-[360px] sm:w-[650px] mx-auto mt-[50px] sm:mt-[100px]">
+    <div className=" lgg:w-[1596px] lg:w-[1200px] w-[300px] xs:w-[360px] sm:w-[750px] mx-auto mt-[50px] sm:mt-[100px]">
          <div className="">
         <h2 className="font-semibold md:p-2 lg:text-[48px] sm:text-[38px] text-[28px]">
           Benefits
@@ -16,7 +16,7 @@ export default function Benefits() {
         {BenefitData.map((item, i) => (
           <div
             key={i}
-            className="bg-[#FFFFFF] shadow-xl sm:w-[323px] sm:h-[346px] w-[358px] h-[314px] lg:h-[407px] lg:w-[400px]"
+            className="bg-[#FFFFFF] mx-auto shadow-xl sm:w-[323px] sm:h-[346px] w-[358px] h-[314px] lg:h-[407px] lg:w-[400px]"
           >
             <span className="flex justify-end items-center sm:mr-[40px] mr-[30px] font-bold sm:text-[60px] text-[50px] lg:text-[80px] lg:mr-[50px] mt-[30px] sm:mt-[40px] lg:mt-[50px]">{item.number}</span>
             <div className="flex flex-col pl-4 md:pl-9 mt-[30px] sm:mt-[40px]   lg:mt-[50px]">
@@ -32,4 +32,4 @@ export default function Benefits() {
       </div>
     </div>
   );
-}
+}   
