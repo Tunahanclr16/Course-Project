@@ -43,7 +43,7 @@ export default function Courses() {
                 <h3 className="font-semibold text-[20px] lg:text-[24px]">{course.title}</h3>
                 <p className="lg:mt-[14px] mt-[10px] sm:text-[16px] text-[14px] lg:text-[18px] max-w-[298px] sm:max-w-[429px] lgg:max-w-[688px]">{course.description}</p>
               </div>
-              <div className="mt-[24px] lg:mt-[30px]">
+              <div className="mt-[24px] mx-auto px-2 lg:mt-[30px]">
                 <button className="text-grey-15 cursor-pointer bg-white-97 border-none rounded text-[14px] lg:text-[18px] lgg:w-[683px] lgg:h-[63px] sm:w-[529px] w-[309px] h-[49px]">Get it Now</button>
               </div>
             </div>
