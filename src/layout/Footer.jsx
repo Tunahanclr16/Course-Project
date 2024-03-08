@@ -1,8 +1,12 @@
+// Footer.js
 
-export default function Footer() {
+
+function Footer() {
   return (
-    <footer>
-            footer
+    <footer className=" ">
+      Buraya footer içeriği eklenecek
     </footer>
-  )
+  );
 }
+
+export default Footer;
