@@ -11,7 +11,7 @@ export default function Home() {
     <Brands/>
     <HeroPhoto/>
     <Benefits/>
-  <Courses/>
   </div>;
+  <Courses/>
   </div>
 }
