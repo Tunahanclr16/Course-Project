@@ -2,7 +2,7 @@
     "courseData": [
         {
             "id": "1",
-            "title": "Front-end Web Development Course",
+            "title": "Front-end Web Development",
             "totalDuration": "1 Week",
             "level": "Beginner",
             "teacher":"By Emily Johnson",
@@ -242,7 +242,7 @@
         },
         {
             "id": "4",
-            "title": "Front-end Web Development Course",
+            "title": "Front-end Web Development ",
             "totalDuration": "12 weeks",
             "level": "Beginner",
             "teacher":"By Michael Adams",
