@@ -35,11 +35,11 @@ export default function Courses() {
                     {course.level}
                   </span>
                 </div>
-                <div className="text-[16px] mt-2 sm:pr-16 font-bold sm:mt-8  text-grey-15">
+                <div className="text-[16px] mt-3 sm:pr-16 font-bold sm:mt-8  text-grey-15">
                   {course.teacher}
                 </div>
               </div>
-              <div className="mt-[30px]">
+              <div className=" mt-[24px] sm:mt-[30px]">
                 <h3 className="font-semibold text-[20px] lg:text-[24px]">{course.title}</h3>
                 <p className="lg:mt-[14px] mt-[10px] sm:text-[16px] text-[14px] lg:text-[18px] max-w-[298px] sm:max-w-[429px] lgg:max-w-[688px]">{course.description}</p>
               </div>
