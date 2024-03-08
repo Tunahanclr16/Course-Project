@@ -182,66 +182,6 @@
         },
         {
             "id": "4",
-            "title": "Front-end Web Development Course",
-            "totalDuration": "12 weeks",
-            "level": "Beginner",
-            "teacher":"By Michael Adams",
-            "description": "Become proficient in front-end web development. Learn HTML, CSS, JavaScript, and popular frameworks like Bootstrap and React. Build interactive and responsive websites.",
-            "image": "https://krisappforu.com/images/pic01.jpg",
-            "image2": "https://krisappforu.com/images/pic01.jpg",
-            "curriculum": [
-                {
-                    "title": "Module 1: Introduction to Web Development",
-                    "duration": "2 weeks",
-                    "videos": [
-                        {
-                            "title": "What is Web Development?",
-                            "url": "video1.mp4",
-                            "duration": "20 minutes"
-                        },
-                        {
-                            "title": "How Does the Internet Work?",
-                            "url": "video2.mp4",
-                            "duration": "25 minutes"
-                        }
-                    ]
-                },
-                {
-                    "title": "Module 2: HTML Basics",
-                    "duration": "3 weeks",
-                    "videos": [
-                        {
-                            "title": "Introduction to HTML",
-                            "url": "video3.mp4",
-                            "duration": "30 minutes"
-                        },
-                        {
-                            "title": "HTML Tags and Elements",
-                            "url": "video4.mp4",
-                            "duration": "35 minutes"
-                        }
-                    ]
-                },
-                {
-                    "title": "Module 3: CSS Fundamentals",
-                    "duration": "3 weeks",
-                    "videos": [
-                        {
-                            "title": "Introduction to CSS",
-                            "url": "video5.mp4",
-                            "duration": "40 minutes"
-                        },
-                        {
-                            "title": "CSS Selectors and Properties",
-                            "url": "video6.mp4",
-                            "duration": "45 minutes"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "4",
             "title": "Front-end Web Development ",
             "totalDuration": "12 weeks",
             "level": "Beginner",
@@ -362,7 +302,67 @@
         },
         {
             "id": "4",
-            "title": "Front-end Web Development Course",
+            "title": "Front-end Web Development",
+            "totalDuration": "12 weeks",
+            "level": "Beginner",
+            "teacher":"By Michael Adams",
+            "description": "Become proficient in front-end web development. Learn HTML, CSS, JavaScript, and popular frameworks like Bootstrap and React. Build interactive and responsive websites.",
+            "image": "https://krisappforu.com/images/pic01.jpg",
+            "image2": "https://krisappforu.com/images/pic01.jpg",
+            "curriculum": [
+                {
+                    "title": "Module 1: Introduction to Web Development",
+                    "duration": "2 weeks",
+                    "videos": [
+                        {
+                            "title": "What is Web Development?",
+                            "url": "video1.mp4",
+                            "duration": "20 minutes"
+                        },
+                        {
+                            "title": "How Does the Internet Work?",
+                            "url": "video2.mp4",
+                            "duration": "25 minutes"
+                        }
+                    ]
+                },
+                {
+                    "title": "Module 2: HTML Basics",
+                    "duration": "3 weeks",
+                    "videos": [
+                        {
+                            "title": "Introduction to HTML",
+                            "url": "video3.mp4",
+                            "duration": "30 minutes"
+                        },
+                        {
+                            "title": "HTML Tags and Elements",
+                            "url": "video4.mp4",
+                            "duration": "35 minutes"
+                        }
+                    ]
+                },
+                {
+                    "title": "Module 3: CSS Fundamentals",
+                    "duration": "3 weeks",
+                    "videos": [
+                        {
+                            "title": "Introduction to CSS",
+                            "url": "video5.mp4",
+                            "duration": "40 minutes"
+                        },
+                        {
+                            "title": "CSS Selectors and Properties",
+                            "url": "video6.mp4",
+                            "duration": "45 minutes"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "title": "Front-end Web Development",
             "totalDuration": "12 weeks",
             "level": "Beginner",
             "teacher":"By Michael Adams",
