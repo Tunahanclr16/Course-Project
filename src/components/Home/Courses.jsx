@@ -14,7 +14,7 @@ export default function Courses() {
           }
         />
       </div>
-      <div className="grid-cols-1 md:grid-cols-2 grid mx-auto sm:gap-20 mt-[40px] sm:mt-[60px] lg:mt-[80px]">
+      <div className="grid-cols-1 md:grid-cols-2 grid mx-auto gap-11 sm:gap-20 mt-[40px] sm:mt-[60px] lg:mt-[80px]">
         {courseData.slice(0, 4).map((course, i) => (
           <div
             key={i}
