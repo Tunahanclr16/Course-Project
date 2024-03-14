@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-export default function PageIntroduction({ title, description,btnText }) {
+export default function SectionHeader({ title, description }) {
   return (
     <div className="flex lg:mt-[108px] mt-[50px] sm:mt-[100px] flex-col  justify-between">
       <div>
@@ -11,14 +11,6 @@ export default function PageIntroduction({ title, description,btnText }) {
           {description}
         
         </div>
-        <div className="flex justify-end items-center">
-            <NavLink
-              to={"/courses"}
-              className="bg-white-99 w-[100px] h-[52px] text-[16px] text-grey-15 whitespace-nowrap mt-4 no-underline flex justify-center items-center rounded-lg shadow-sm hover:bg-gray-200 transition-colors duration-300"
-            >
-              {btnText} 
-            </NavLink>
-          </div>
       </div>
     </div>
   );

@@ -16,7 +16,7 @@ export default function Benefits() {
         {BenefitData.map((item, i) => (
           <div
             key={i}
-            className="bg-[#FFFFFF] mx-auto shadow-xl sm:w-[323px] sm:h-[346px] w-[358px] h-[314px] lg:h-[407px] lg:w-[400px]"
+            className="bg-[#FFFFFF] mx-auto lg:mx-0  shadow-xl sm:w-[323px] sm:h-[346px] w-[358px] h-[314px] lg:h-[407px] lg:w-[400px]"
           >
             <span className="flex justify-end items-center sm:mr-[40px] mr-[30px] font-bold sm:text-[60px] text-[50px] lg:text-[80px] lg:mr-[50px] mt-[30px] sm:mt-[40px] lg:mt-[50px]">{item.number}</span>
             <div className="flex flex-col pl-4 md:pl-9 mt-[30px] sm:mt-[40px]   lg:mt-[50px]">
