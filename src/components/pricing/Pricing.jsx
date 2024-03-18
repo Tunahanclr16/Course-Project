@@ -113,8 +113,8 @@ export default function Pricing() {
             Yearly
           </button>
         </div>
-        <div className="bg-[#FFFFFF]  w-[357px] pl-1 lgg:px-2 h-[2106px] lgg:h-[1106px] sm:w-[679px] mx-auto flex  lg:w-[1200px] lgg:w-[1397px] flex-col gap-5 lgg:flex-row mt-8">
-          <div className="mx-auto bg-[#F1F1F3] h-[800px] sm:h-[900px] mt-[80px] rounded sm:[574px] flex justify-center lg:w-[703px]">
+        <div className="bg-[#FFFFFF]  w-[357px] pl-1 lgg:px-2  sm:h-[2106px] lgg:h-[1106px] sm:w-[679px] mx-auto flex  lg:w-[1200px] lgg:w-[1397px] flex-col gap-5 lgg:flex-row mt-8">
+          <div className="mx-auto bg-[#F1F1F3] h-[700px] sm:h-[900px] mt-[80px] rounded sm:[574px] flex justify-center lg:w-[703px]">
             <div className="rounded p-4">
               <div className="mx-auto mt-[24px] md:mt-[62px] lg:w-[643px] sm:w-[326px] sm:h-[50px] w-[277px] h-[43px] lg:h-[61px] rounded bg-orange-97 ">
                 <h2 className="text-center text-[22px] text-grey-15 font-medium flex justify-center h-full items-center mb-2">
@@ -125,7 +125,7 @@ export default function Pricing() {
                 {pricingData[selectedPlan].free.price} /{" "}
                 {selectedPlan === "monthly" ? "month" : "yearly"}
               </p>
-              <div className="text-center w-[330px] xss:w-[340px] whitespace-nowrap p-2 sm:w-[526px] lg:w-[643px] flex items-center flex-col bg-white-99 h-[600px] ">
+              <div className="text-center w-[330px] xss:w-[340px] whitespace-nowrap p-2 sm:w-[526px] lg:w-[643px] flex items-center flex-col bg-white-99 h-[500px] ">
                 <h4 className="text-center text-[20px] mt-[40px]">
                   Available Features
                 </h4>
@@ -147,7 +147,7 @@ export default function Pricing() {
               </div>
             </div>
           </div>
-          <div className="mx-auto bg-[#F1F1F3] h-[800px] sm:h-[900px] mt-[80px] rounded sm:[574px] flex justify-center lg:w-[703px]">
+          <div className="mx-auto bg-[#F1F1F3] h-[700px] sm:h-[900px] mt-[80px] rounded sm:[574px] flex justify-center lg:w-[703px]">
             <div className="rounded p-4">
               <div className="mx-auto mt-[24px] md:mt-[62px] lg:w-[643px] sm:w-[326px] sm:h-[50px] w-[277px] h-[43px] lg:h-[61px] rounded bg-orange-97 ">
                 <h2 className="text-center text-[22px] text-grey-15 font-medium flex justify-center h-full items-center mb-2">
@@ -158,7 +158,7 @@ export default function Pricing() {
                 {pricingData[selectedPlan].pro.price} /{" "}
                 {selectedPlan === "monthly" ? "month" : "yearly"}
               </p>
-              <div className="text-center w-[330px] xss:w-[340px] whitespace-nowrap p-2 sm:w-[526px] lg:w-[643px] flex items-center flex-col bg-white-99 h-[600px] ">
+              <div className="text-center w-[330px] xss:w-[340px] whitespace-nowrap p-2 sm:w-[526px] lg:w-[643px] flex items-center flex-col bg-white-99 h-[500px] ">
                 <h4 className="text-center text-[20px] mt-[40px]">
                   Available Features
                 </h4>
