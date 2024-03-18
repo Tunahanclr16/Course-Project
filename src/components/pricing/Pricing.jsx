@@ -113,7 +113,7 @@ export default function Pricing() {
             Yearly
           </button>
         </div>
-        <div className="bg-[#FFFFFF] w-[357px] pl-1 lgg:px-2 h-[2106px] lgg:h-[1106px] sm:w-[679px] mx-auto flex  lg:w-[1200px] lgg:w-[1397px] flex-col gap-5 lgg:flex-row mt-8">
+        <div className="bg-[#FFFFFF]  w-[357px] pl-1 lgg:px-2 h-[2106px] lgg:h-[1106px] sm:w-[679px] mx-auto flex  lg:w-[1200px] lgg:w-[1397px] flex-col gap-5 lgg:flex-row mt-8">
           <div className="mx-auto bg-[#F1F1F3] h-[800px] sm:h-[900px] mt-[80px] rounded sm:[574px] flex justify-center lg:w-[703px]">
             <div className="rounded p-4">
               <div className="mx-auto mt-[24px] md:mt-[62px] lg:w-[643px] sm:w-[326px] sm:h-[50px] w-[277px] h-[43px] lg:h-[61px] rounded bg-orange-97 ">
@@ -132,7 +132,7 @@ export default function Pricing() {
                 <ul className="mt-2 mx-auto text-center flex flex-col gap-5">
                   {pricingData[selectedPlan].free.features.map(
                     (feature, index) => (
-                      <li key={index} className="text-[18px] flex items-center">
+                      <li key={index} className=" text-[16px] sm:text-[18px] flex items-center">
                         <FaCheck className="text-orange-500 mr-2" />
                         {feature}
                       </li>
@@ -165,7 +165,7 @@ export default function Pricing() {
                 <ul className="mt-2 mx-auto text-center flex flex-col gap-5">
                   {pricingData[selectedPlan].free.features.map(
                     (feature, index) => (
-                      <li key={index} className="text-[18px] flex items-center">
+                      <li key={index} className=" text-[16px] sm:text-[18px] flex items-center">
                         <FaCheck className="text-orange-500 mr-2" />
                         {feature}
                       </li>
