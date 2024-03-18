@@ -1,7 +1,7 @@
 import BenefitData from "../../data/benifts";
 export default function Benefits() {
   return (
-    <div className=" lgg:w-[1596px] lg:w-[1200px] w-[300px] xs:w-[360px] sm:w-[750px] mx-auto mt-[50px] sm:mt-[100px]">
+    <div className=" lgg:w-[1596px] flex flex-col lg:w-[1200px] w-[300px] xs:w-[360px] sm:w-[750px] mx-auto mt-[50px] sm:mt-[100px]">
          <div className="">
         <h2 className="font-semibold md:p-2 lg:text-[48px] sm:text-[38px] text-[28px]">
           Benefits

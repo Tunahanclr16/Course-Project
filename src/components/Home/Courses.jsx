@@ -10,6 +10,7 @@ export default function Courses() {
       <div className="mt-[50px] sm:mt-[100px]">
         <PageIntroduction
           title={"Courses"}
+          btnText={"View All"}
           description={
             "Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum eget habitasse in velit fringilla feugiat senectus in."
           }
@@ -45,7 +46,7 @@ export default function Courses() {
                 <p className="lg:mt-[14px] mt-[10px] sm:text-[16px] text-[14px] lg:text-[18px] max-w-[298px] sm:max-w-[429px] mx-auto lgg:max-w-[688px]">{course.description}</p>
               </div>
               <div className="mt-[24px] mx-auto px-2 lg:mt-[30px]">
-                <button onClick={()=>navigate(`/course/${course.id}`)} className="text-grey-15 cursor-pointer bg-white-97 border-none rounded text-[14px] lg:text-[18px] lgg:w-[683px] lgg:h-[63px] sm:w-[529px] w-[309px] h-[49px]">Get it Now</button>
+                <button onClick={()=>navigate(`/course/${course.id}`)} className="text-grey-15  cursor-pointer bg-white-97 border-none rounded text-[14px] lg:text-[18px] lgg:w-[683px] lgg:h-[63px] sm:w-[529px] w-[309px] h-[49px]">Get it Now</button>
               </div>
             </div>
           </div>
