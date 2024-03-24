@@ -29,7 +29,7 @@ export default function Accordion() {
   ];
 
   return ( 
-    <div className="flex mt-[150px] mx-auto lgg:w-[1595px] sm:w-[700px] md:w-[1200px] w-[357px]  justify-center px-14  flex-col md:flex-row bg-gray-50 py-8 sm:py-12 lg:py-16">
+    <div className="flex mt-[50px] sm:mt-[150px] mx-auto lgg:w-[1595px] sm:w-[700px] md:w-[500px] w-[357px]  justify-center px-14  flex-col md:flex-row bg-gray-50 py-8 sm:py-12 lg:py-16">
       <div className="mx-auto">
         <h2 className=" sm:text-[38px] text-grey-15 lg:text-[48px] font-semibold sm:w-[408px] w-[309px] text-[28px]">
           Frequently Asked Questions
