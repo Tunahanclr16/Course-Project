@@ -16,15 +16,15 @@ export default function Accordion() {
     },
     {
       question: "Are there any prerequisites for the courses?",
-      answer: "Answer to Question 3",
+      answer: "Yes, there are prerequisites for the courses."
     },
     {
       question: "Can I download the course materials for offline access?",
-      answer: "Answer to Question 3",
+      answer: "Yes, you can download the course materials for offline access.",
     },
     {
         question: "Can I download the course materials for offline access?",
-        answer: "Answer to Question 3",
+        answer: "Yes, you can download the course materials for offline access. ",
       },
   ];
 
@@ -39,9 +39,9 @@ export default function Accordion() {
           support@skillbridge.com
         </p>
       </div>
-      <div className="lg:w-[1079px]  w-[250px] sm:w-[557px]    lgg:w-[1595px] mt-10 bg-[#F1F1F3] flex flex-col gap-5  h-[802px] mx-auto rounded shadow-xl sm:mt-0 ">
+      <div className="lg:w-[1079px]  w-[250px] sm:w-[557px]    lgg:w-[1595px] mt-10 bg-[#F1F1F3] flex flex-col gap-5  h-auto mx-auto rounded shadow-xl md:mt-0 ">
         {accordionData.map((item, index) => (
-          <div key={index} className="mb-4 mt-12">
+          <div key={index} className="mb-4 mt-12 ">
             <div
               className="flex justify-center gap-2 sm:justify-between items-center cursor-pointer  p-4 rounded-md"
               onClick={() =>
@@ -52,7 +52,7 @@ export default function Accordion() {
               {activeIndex === index ? <FiChevronUp /> : <FiChevronDown />}
             </div>
             {activeIndex === index && (
-              <p className="text-gray-600 sm:w-[551px] w-[261px]  sm:mx-0 mx-auto text-[18px] p-4 border-t">{item.answer}</p>
+              <p className="text-gray-600 sm:w-[551px] w-[261px]  sm:mx-0 mx-auto text-[20px] p-4 border-t">{item.answer}</p>
             )}
           </div>
         ))}
