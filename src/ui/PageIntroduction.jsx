@@ -4,10 +4,10 @@ export default function PageIntroduction({ title, description,btnText }) {
   return (
     <div className="flex lg:mt-[108px] mt-[50px] sm:mt-[100px] flex-col  justify-between">
       <div>
-        <h2 className="font-semibold md:p-2 lg:text-[48px] sm:text-[38px] text-[28px]">
+        <h2 className="font-semibold md:p-2 lg:text-[48px] sm:text-[38px] text-[24px]">
           {title}
         </h2>
-        <div className="lg:w-[1177px] sm:leading-6 md:leading-7 sm:w-[600px] md:w-[800px] w-[358px] lg:mt-[6px] md:p-2 font-light mt-1 lg:text-[18px] sm:text-[16px] text-[14px]">
+        <div className="lg:w-[1177px] sm:leading-6 md:leading-7 sm:w-[600px] md:w-[800px] w-[350px] lg:mt-[6px] md:p-2 font-light mt-1 lg:text-[18px] sm:text-[16px] text-[14px]">
           {description}
         
         </div>

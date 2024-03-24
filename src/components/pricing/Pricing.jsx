@@ -113,7 +113,7 @@ export default function Pricing() {
             Yearly
           </button>
         </div>
-        <div className="bg-[#FFFFFF]  w-[357px] pl-1 lgg:px-2  sm:h-[2106px] lgg:h-[1006px] sm:w-[679px] mx-auto flex  lg:w-[1200px] lgg:w-[1397px] flex-col gap-5 lgg:flex-row mt-8">
+        <div className="bg-[#FFFFFF]  w-[357px] pl-1 lgg:px-2  sm:h-[2106px] lgg:h-[1006px] sm:w-[609px] mx-auto flex  lg:w-[1100px] lgg:w-[1597px] flex-col gap-5 lgg:flex-row mt-8">
           <div className="mx-auto bg-[#F1F1F3] h-[700px] sm:h-[900px] mt-[80px] rounded sm:[574px] flex justify-center lg:w-[703px]">
             <div className="rounded p-4">
               <div className="mx-auto mt-[24px] md:mt-[62px] lg:w-[643px] sm:w-[326px] sm:h-[50px] w-[277px] h-[43px] lg:h-[61px] rounded bg-orange-97 ">
