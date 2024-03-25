@@ -43,7 +43,7 @@ export default function Courses() {
               <div className="mt-3">
                 <button
                   onClick={() => navigate(`/course/${course.id}`)}
-                  className="bg-gray-100 text-gray-800 font-semibold py-2 px-4 rounded hover:bg-gray-200 transition duration-300"
+                  className="bg-gray-100 cursor-pointer text-gray-800 font-semibold py-2 px-4 rounded hover:bg-gray-200 transition duration-300"
                 >
                   Get it Now
                 </button>
