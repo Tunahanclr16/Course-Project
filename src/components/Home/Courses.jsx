@@ -18,11 +18,11 @@ export default function Courses() {
           }
         />
       </div>
-      <div className="grid grid-cols-1  gap-11 sm:gap-20 mt-[40px] sm:mt-[60px] lg:grid-cols-2">
-        {courseData.slice(0, 4).map((course, index) => (
+      <div className="grid grid-cols-1  gap-6 sm:gap-10 mt-[40px] mx-auto w-[310px] xss:w-[350px] md:w-[1250px] lgg:w-full sm:mt-[60px] md:grid-cols-2 lgg:grid-cols-3">
+        {courseData.slice(0, 6).map((course, index) => (
           <div key={index} className="flex flex-col bg-[#FFFFFF] shadow-xl rounded overflow-hidden">
             <img
-              className="w-full h-[266px] object-cover"
+              className="w-full h-[200px] object-cover"
               src={course.image}
               alt={course.title}
             />
