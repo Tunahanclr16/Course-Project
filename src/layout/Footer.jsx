@@ -8,7 +8,7 @@ import { FiFacebook, FiTwitter, FiInstagram } from "react-icons/fi";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#FFFFFF]  sm:mt-[72px] mt-[50px] md:mt-[142px] py-10">
+    <footer className="bg-[#FFFFFF] w-[100%]  sm:mt-[72px] mt-[50px] md:mt-[100px] py-10">
       <div className="max-w-[1650px] mt-2 sm:mt-24   overflow-hidden items-center mx-auto grid grid-cols-1  xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 p-3 sm:p-0 xs:gap-12 md:gap-24">
         <div className="flex flex-col text-center items-center">
           <img src={Desk} alt="" className="lg:block hidden" />
