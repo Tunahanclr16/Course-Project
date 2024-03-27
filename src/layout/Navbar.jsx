@@ -21,46 +21,48 @@ export default function Navbar() {
           <img className="sm:block hidden lg:hidden" src={LaptopLogo} alt="" />
           <img className="sm:hidden" src={MobileLogo} alt="" />
           <ul className="hidden sm:flex items-center">
-            <li className="w-[70px] lg:w-[100px] transition-all hover:bg-white-95 hover:p-3 text-center">
-              <NavLink
+          <NavLink
                 to={'/'}
                 className="no-underline text-grey-15  text-[14px] lg:text-[18px]"
               >
-                Home
-              </NavLink>
-            </li>
             <li className="w-[70px] lg:w-[100px] transition-all hover:bg-white-95 hover:p-3 text-center">
-              <NavLink
+                Home
+            </li>
+            </NavLink>
+
+            <NavLink
                 to={'/courses'}
                 className="no-underline wrap text-grey-15 text-[14px] lg:text-[18px]"
               >
-                Courses
+                  <li className="w-[70px] lg:w-[100px] transition-all hover:bg-white-95 hover:p-3 text-center">
+                  Courses
+             
+             </li>
               </NavLink>
-            </li>
-            <li className="w-[70px] lg:w-[100px] transition-all hover:bg-white-95 hover:p-3 text-center">
               <NavLink
                 to={'/about'}
                 className="no-underline wrap text-grey-15 text-[14px] lg:text-[18px]"
               >
-                About
-              </NavLink>
-            </li>
             <li className="w-[70px] lg:w-[100px] transition-all hover:bg-white-95 hover:p-3 text-center">
-              <NavLink
+                About
+            </li>
+            </NavLink>
+            <NavLink
                 to={'/pricing'}
                 className="no-underline text-grey-15 text-[14px] lg:text-[18px]"
               >
-                Pricing
-              </NavLink>
-            </li>
             <li className="w-[70px] lg:w-[100px] transition-all hover:bg-white-95 hover:p-3 text-center">
-              <NavLink
+                Pricing
+            </li>
+            </NavLink>
+            <NavLink
                 to={'/contact'}
                 className="no-underline text-grey-15 text-[14px] lg:text-[18px]"
               >
+            <li className="w-[70px] lg:w-[100px] transition-all hover:bg-white-95 hover:p-3 text-center">
                 Contact
-              </NavLink>
             </li>
+            </NavLink>
           </ul>
         </div>
         <div className="flex items-center gap-2 sm:gap-0">
