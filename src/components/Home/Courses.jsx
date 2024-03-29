@@ -8,7 +8,7 @@ export default function Courses() {
   const navigate = useNavigate();
 
   return (
-    <div className="lg:w-[1590px] w-full mx-auto mt-[50px] sm:mt-[100px]">
+    <div className="lg:max-w-[1596px] w-full mx-auto mt-[50px] sm:mt-[100px]">
       <div className="mt-[50px] sm:mt-[100px]">
         <PageIntroduction
           title={'Courses'}
