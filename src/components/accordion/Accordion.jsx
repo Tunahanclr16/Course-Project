@@ -34,7 +34,7 @@ export default function Accordion() {
         <h2 className=" sm:text-[38px] text-grey-15 lg:text-[48px] font-semibold sm:w-[408px] w-[309px] text-[28px]">
           Frequently Asked Questions
         </h2>
-        <p className=" sm:text-[16px] text-[14px] lg:text-[18px] text-grey-20 mt-2 sm:w-[408px] w-[309px] font-light">
+        <p className=" sm:text-[16px] w-[80%] text-[14px] lg:text-[18px] text-grey-20 mt-2 sm:w-[408px] font-light">
           Still you have any questions? Contact our Team via
           support@skillbridge.com
         </p>

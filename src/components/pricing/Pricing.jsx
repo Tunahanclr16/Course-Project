@@ -79,7 +79,7 @@ export default function Pricing() {
   };
 
   return (
-    <div className=" max-w-full mx-auto lgg:max-[1596px] mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div className=" max-w-full  lgg:max-[1596px] mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <SectionHeader
         title={"Our Pricing"}
         description={
@@ -114,7 +114,7 @@ export default function Pricing() {
             <div className="px-6 py-12">
               <h2 className="text-2xl font-semibold text-gray-800 mb-4">{value.title}</h2>
               <p className="text-[42px] mx-auto  sm:text-[50px] lg:text-[60px] font-semibold text-grey-15 mb-4">{value.price} / {selectedPlan === "monthly" ? "month" : "year"}</p>
-              <p className="text-gray-600 mb-6">{value.description}</p>
+              <p className="text-gray-600  mb-6">{value.description}</p>
               <ul className="text-gray-600 space-y-2">
                 {value.features.map((feature, index) => (
                   <li key={index} className="flex items-center">
