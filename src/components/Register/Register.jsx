@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import {auth} from"../../firebase"
 export default function Register() {
   const [registerData, setRegisterData] = useState({
     name: "",
