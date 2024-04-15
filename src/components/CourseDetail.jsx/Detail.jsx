@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import ReactPlayer from "react-player";
 import { useNavigate } from "react-router-dom";
-
+import { useAuth } from "../../hooks/useAuth";
 export default function Detail({ course }) {
   const [modalOpen, setModalOpen] = useState(false);
   const [videoUrl, setVideoUrl] = useState("");
-
+  const { user, logout } = useAuth(); // Firebase Authentication hookunu kullanın
   const openModal = (url) => {
     setVideoUrl(url);
     setModalOpen(true);
@@ -43,7 +43,9 @@ export default function Detail({ course }) {
       {modalOpen && (
         <div className="fixed top-0 left-0 w-full h-full flex justify-center items-center">
           <div className="bg-black/35 absolute w-full h-full left-0 right-0"></div>
-          <div className="bg-white z-50 p-4 rounded-lg">
+        {
+          user ? (
+            <div className="bg-white z-50 p-4 rounded-lg">
             <ReactPlayer
               url={videoUrl}
                 className="md:flex hidden"
@@ -72,6 +74,12 @@ export default function Detail({ course }) {
               </button>
             </div>
           </div>
+          ):(
+            <div>
+              lütfen giris yapın
+            </div>
+          )
+        }
         </div>
       )}
     </div>

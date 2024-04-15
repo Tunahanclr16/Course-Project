@@ -14,7 +14,11 @@ export default function Navbar() {
   const toggleNav = () => {
     setNav(!nav);
   };
-
+  const handleLogout=()=>{
+      setTimeout(() => {
+          logout()
+      }, 2000);
+  }
   return (
     <div className="content">
       <div className="flex sm:mx-[24px] md:mx-[132px] mx-2 justify-between items-center">
@@ -69,7 +73,7 @@ export default function Navbar() {
         </div>
         <div className="flex items-center gap-2 sm:gap-0">
         {user ? (
-            <button onClick={logout} className="p-6 no-underline sm:px-8 py-4 border-none outline-none text-grey-15 bg-transparent rounded-md cursor-pointer">
+            <button onClick={handleLogout} className="p-6 no-underline sm:px-8 py-4 border-none outline-none text-[#fff] hover:bg-orange-70 bg-orange-50 rounded-md cursor-pointer">
               Logout
             </button>
           ) : (

@@ -29,9 +29,9 @@ export default function Register() {
         password
       );
       await updateProfile(userCredential.user, { displayName: name }); 
-      toast.success("The registration process is successfull,you will be directed to the login page")
+      toast.success("Registration was successful, you will be directed to the login page")
       setTimeout(() => {
-          navigate('/login')
+          navigate('/courses')
       }, 2000);
     } catch (error) {
      toast.error(error.message)
@@ -40,6 +40,8 @@ export default function Register() {
 
   return (
     <div className="flex px-2 justify-center mx-auto items-center rounded mt-[50px] ">
+      <ToastContainer/>
+
       <div className="bg-[#FFFFFF] w-[357px] sm:w-[540px] md:w-[660px] h-[560px] sm:h-[600px] md:h-[750px] rounded-xl">
         <div className="text-center mt-[50px]">
           <h2 className="text-grey-15 md:text-[38px] text-[28px] lgg:text-[48px]">Sign Up</h2>
@@ -105,7 +107,6 @@ export default function Register() {
           </form>
         </div>
       </div>
-      <ToastContainer/>
     </div>
   );
 }
