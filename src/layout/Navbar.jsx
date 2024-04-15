@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import { useAuth } from '../hooks/useAuth'; // Firebase Authentication hookunu içeri aktarın
 import DeskLogo from '../assets/logo/desk.png';
 import LaptopLogo from '../assets/logo/laptop.png';
 import MobileLogo from '../assets/logo/mobile.png';
@@ -8,6 +9,7 @@ import { AiOutlineClose } from "react-icons/ai";
 
 export default function Navbar() {
   const [nav, setNav] = useState(false);
+  const { user, logout } = useAuth(); // Firebase Authentication hookunu kullanın
 
   const toggleNav = () => {
     setNav(!nav);
@@ -66,18 +68,20 @@ export default function Navbar() {
           </ul>
         </div>
         <div className="flex items-center gap-2 sm:gap-0">
-          <NavLink to={"/Sign-Up"} className="p-6 no-underline sm:px-8 py-4 border-none outline-none text-grey-15 bg-transparent rounded-md cursor-pointer">
-            Sign Up
-          </NavLink>
-          <NavLink to={'/login'} className="p-6 no-underline sm:px-8 py-4 border-none outline-none text-[#fff] hover:bg-orange-70 bg-orange-50 rounded-md cursor-pointer">
-            Login
-          </NavLink>
-          <img
-            className="sm:hidden cursor-pointer"
-            src={Bars}
-            alt=""
-            onClick={toggleNav}
-          />
+        {user ? (
+            <button onClick={logout} className="p-6 no-underline sm:px-8 py-4 border-none outline-none text-grey-15 bg-transparent rounded-md cursor-pointer">
+              Logout
+            </button>
+          ) : (
+            <>
+              <NavLink to={"/Sign-Up"} className="p-6 no-underline sm:px-8 py-4 border-none outline-none text-grey-15 bg-transparent rounded-md cursor-pointer">
+                Sign Up
+              </NavLink>
+              <NavLink to={'/login'} className="p-6 no-underline sm:px-8 py-4 border-none outline-none text-[#fff] hover:bg-orange-70 bg-orange-50 rounded-md cursor-pointer">
+                Login
+              </NavLink>
+            </>
+          )}
         </div>
         {nav && (
           <div className="absolute top-0 left-0 w-full h-full bg-black/30 z-50">
