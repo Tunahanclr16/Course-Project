@@ -1,4 +1,4 @@
-# Project Name
+# Course Project
 
 ## Description
 This project contains a web application that I coded using a design I obtained from Figma, utilizing React, Firebase, Tailwind CSS, and React Icons. The application includes a landing page, user authentication, registration, and course viewing functionalities.
