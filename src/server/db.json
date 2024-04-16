@@ -5,7 +5,7 @@
             "title": "Front-end Web Development",
             "totalDuration": "2 Days",
             "level": "Beginner",
-            "teacher": "SuperSimpleDev,GreatStack,Nerd's lesson ",
+            "teacher": "freeCodeCamp.org,GreatStack,Nerd's lesson ",
             "description": "Become proficient in front-end web development. Learn HTML, CSS, JavaScript, and popular frameworks like React. Build interactive and responsive websites.",
             "image": "https://krisappforu.com/images/pic01.jpg",
             "image2": "https://www.bilisimschool.com/wp-content/uploads/2023/10/Bootstrap-Nedir-ve-Web-Gelistirmedeki-Onemi-Nedir.jpg",
@@ -16,8 +16,8 @@
                     "duration": "6 hours",
                     "videos": [
                         {
-                            "title": "What is Web Development?",
-                            "url": "https://www.youtube.com/watch?v=G3e-cpL7ofc&ab_channel=SuperSimpleDev",
+                            "title": "Web Development with HTML & CSS – Full Course for Beginners                            ",
+                            "url": "https://www.youtube.com/watch?v=dX8396ZmSPk",
                             "duration": "6:31:23 hours"
                         }
                     ]
@@ -107,62 +107,38 @@
         },
         {
             "id": "4",
-            "title": "Front-end Web Development ",
-            "totalDuration": "12 weeks",
+            "title": "Graphic Design for Beginners",
+            "totalDuration": "8 hours",
             "level": "Beginner",
-            "teacher": "By Michael Adams",
-            "description": "Become proficient in front-end web development. Learn HTML, CSS, JavaScript, and popular frameworks like Bootstrap and React. Build interactive and responsive websites.",
-            "image": "https://krisappforu.com/images/pic01.jpg",
-            "image2": "https://krisappforu.com/images/pic01.jpg",
+            "teacher": "Bring Your Own Laptop,Envato Tuts",
+            "description": "Discover the fundamentals of graphic design, including typography, color theory, layout design, and image manipulation techniques. Create visually stunning designs for print and digital media..",
+            "image": "https://miro.medium.com/v2/resize:fit:700/1*3TJSOySgHlv2h0-cAudE0A.jpeg",
+            "image2": "https://boostedcraft.com/wp-content/uploads/2024/02/favicon-nedir.jpg",
+            "image3":"https://gokturkturunc.com/wp-content/uploads/2022/03/soru-sorma-640x436.jpg",
             "curriculum": [
                 {
-                    "title": "Module 1: Introduction to Web Development",
-                    "duration": "2 weeks",
-                    "videos": [
+                    "title": "Adobe Illustrator Tutorial for Beginners",
+                    "duration": "4 hours",
+                    "videos": [ 
                         {
                             "title": "What is Web Development?",
-                            "url": "video1.mp4",
-                            "duration": "20 minutes"
-                        },
-                        {
-                            "title": "How Does the Internet Work?",
-                            "url": "video2.mp4",
-                            "duration": "25 minutes"
+                            "url": "https://www.youtube.com/watch?v=r9gaPGQ1EG0&ab_channel=BringYourOwnLaptop",
+                            "duration": "4 hours"
                         }
                     ]
                 },
                 {
-                    "title": "Module 2: HTML Basics",
-                    "duration": "3 weeks",
+                    "title": "Photoshop for Beginners | FREE COURSE",
+                    "duration": "3 hours",
                     "videos": [
                         {
-                            "title": "Introduction to HTML",
-                            "url": "video3.mp4",
-                            "duration": "30 minutes"
-                        },
-                        {
-                            "title": "HTML Tags and Elements",
-                            "url": "video4.mp4",
-                            "duration": "35 minutes"
-                        }
-                    ]
-                },
-                {
-                    "title": "Module 3: CSS Fundamentals",
-                    "duration": "3 weeks",
-                    "videos": [
-                        {
-                            "title": "Introduction to CSS",
-                            "url": "video5.mp4",
-                            "duration": "40 minutes"
-                        },
-                        {
-                            "title": "CSS Selectors and Properties",
-                            "url": "video6.mp4",
-                            "duration": "45 minutes"
+                            "title": "Photoshop for Beginners | FREE COURSE",
+                            "url": "https://www.youtube.com/watch?v=IyR_uYsRdPs&ab_channel=EnvatoTuts%2B",
+                            "duration": "3 hours"
                         }
                     ]
                 }
+            
             ]
         }
     ]

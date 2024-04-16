@@ -75,9 +75,15 @@ export default function Detail({ course }) {
             </div>
           </div>
           ):(
-            <div>
-              lütfen giris yapın
-            </div>
+            <div className="bg-[#FFFFFF] z-50 p-4 rounded-lg text-center">
+            <p>Please log in to watch the video.</p>
+            <button
+              onClick={() => navigate("/login")}
+              className="mt-4 bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600"
+            >
+              Log In
+            </button>
+          </div>
           )
         }
         </div>
